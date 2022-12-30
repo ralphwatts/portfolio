@@ -104,6 +104,17 @@
     font-weight: 400;
     letter-spacing: .1px;
 }
+.showcase button{
+  background: #CAD2C5;
+  color:#2F3E46;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.showcase button:hover{
+  background: #2F3E46;
+  color:#fff;
+}
 .grid {
   display: flex;
   grid-template-columns: repeat(4, minmax(25%, auto));

@@ -257,6 +257,15 @@ export default function Home() {
               </p>
             </a>
           </div>
+          <div>
+            <a
+              href="http://legacy.ralphjwatts.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" auto rounded flat color="secondary">Older Work</Button>
+            </a>
+          </div>
         </section>
         <section className={styles.hero}>
           <div className={styles.footer}>
