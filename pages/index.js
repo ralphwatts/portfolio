@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter, Noto, Baskervville } from '@next/font/google'
-import { BsQuestionCircle } from "@react-icons/all-files/bs/BsQuestionCircle";
+import { BsInfoCircle } from "@react-icons/all-files/bs/BsInfoCircle";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { VscActivateBreakpoints } from "@react-icons/all-files/vsc/VscActivateBreakpoints";
-import { VscRocket } from "@react-icons/all-files/vsc/VscRocket";
 import { VscArrowRight } from "@react-icons/all-files/vsc/VscArrowRight";
 import { Popover, Button, Spacer } from "@nextui-org/react";
 import styles from '../styles/Home.module.css'
@@ -49,7 +48,7 @@ export default function Home() {
                 <Popover>
                   <Popover.Trigger>
                     <div>
-                      <BsQuestionCircle />
+                      <BsInfoCircle />
                     </div>
                   </Popover.Trigger>
                   <Popover.Content css={{
@@ -69,7 +68,7 @@ export default function Home() {
                 <Popover>
                   <Popover.Trigger>
                     <div>
-                      <BsQuestionCircle />
+                      <BsInfoCircle />
                     </div>
                   </Popover.Trigger>
                   <Popover.Content css={{
@@ -95,7 +94,7 @@ export default function Home() {
                 <Popover>
                   <Popover.Trigger>
                     <div>
-                      <BsQuestionCircle />
+                      <BsInfoCircle />
                     </div>
                   </Popover.Trigger>
                   <Popover.Content css={{
@@ -135,7 +134,7 @@ export default function Home() {
               <Image
                 className={styles.portfoloimg}
                 src="/images/prices.webp"
-                alt="Next.js Logo"
+                alt="Coinme.com/prices screenshot"
                 width={192}
                 height={400}
                 priority
@@ -157,7 +156,7 @@ export default function Home() {
               <Image
                 className={styles.portfoloimg}
                 src="/images/map.webp"
-                alt="Next.js Logo"
+                alt="Coinme store locator screenshot"
                 width={481}
                 height={400}
                 priority
@@ -179,7 +178,7 @@ export default function Home() {
               <Image
                 className={styles.portfoloimg}
                 src="/images/btc-price.webp"
-                alt="Next.js Logo"
+                alt="Bitcoin price history page screenshot"
                 width={192}
                 height={400}
                 priority
@@ -200,7 +199,7 @@ export default function Home() {
               <Image
                 className={styles.portfoloimg}
                 src="/images/quiz-ipad.webp"
-                alt="Next.js Logo"
+                alt="cryptoliteracy.org/quiz screenshot"
                 width={482}
                 height={400}
                 priority
@@ -222,7 +221,7 @@ export default function Home() {
               <Image
                 className={styles.portfoloimg}
                 src="/images/earthandclay.webp"
-                alt="Next.js Logo"
+                alt="earthandclaysoaps.com screenshot"
                 width={192}
                 height={400}
                 priority
@@ -244,7 +243,7 @@ export default function Home() {
               <Image
                 className={styles.portfoloimg}
                 src="/images/learn.webp"
-                alt="Next.js Logo"
+                alt="Coinme.com/learn screenshot"
                 width={482}
                 height={400}
                 priority
