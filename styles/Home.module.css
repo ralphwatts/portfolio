@@ -220,6 +220,13 @@
   .hero p, .hero h2{
     margin-bottom:15px
   }
+  .hero h1{
+    margin-bottom:0;
+    font-size: 60px;
+  }
+  .hero h2{
+    font-size:26px;
+  }
   .hero button{
     display: none;
   }
