@@ -223,6 +223,9 @@
   .hero button{
     display: none;
   }
+  .skills ul li span{
+    flex-basis: 60%;
+  }
   .grid {
     max-width: 100%;
     text-align: center;
@@ -230,8 +233,12 @@
   .grid a {
     flex-basis: 100%;
   }
+  .grid img{
+    max-width: 100%;
+    height: auto;
+  }
   .card {
-    padding: 1rem 2.5rem;
+    padding: 12px;
     width:100%;
     margin-bottom:20px;
   }

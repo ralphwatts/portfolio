@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import pricesShowcase from '../public/images/prices.webp'
 import { Inter, Noto, Baskervville } from '@next/font/google'
 import { BsInfoCircle } from "@react-icons/all-files/bs/BsInfoCircle";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { VscActivateBreakpoints } from "@react-icons/all-files/vsc/VscActivateBreakpoints";
 import { VscArrowRight } from "@react-icons/all-files/vsc/VscArrowRight";
-import { Popover, Button, Spacer } from "@nextui-org/react";
+import { Popover, Button } from "@nextui-org/react";
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -54,7 +55,8 @@ export default function Home() {
                   <Popover.Content css={{
                     background: '#111',
                     padding: '4px 8px',
-                    textAlign: 'center'
+                    textAlign: 'center',
+                    placement: 'bottom-left'
                   }}>
                     <p>HTML, CSS, Javascript, React, PHP and Wordpress expert.<br></br>8+ years of professional web development experience across many frameworks and CMS'</p>
                   </Popover.Content>
@@ -64,7 +66,7 @@ export default function Home() {
                 <div>
                   <VscActivateBreakpoints />
                 </div>
-                SEO and Performance Optimization
+                <span>SEO and Performance Optimization</span>
                 <Popover>
                   <Popover.Trigger>
                     <div>
@@ -133,11 +135,10 @@ export default function Home() {
             >
               <Image
                 className={styles.portfoloimg}
-                src="/images/prices.webp"
+                src={pricesShowcase}
                 alt="Coinme.com/prices screenshot"
                 width={192}
                 height={400}
-                priority
               />
               <h2 className={inter.className}>
                 Coinme.com/prices <span><VscArrowRight /></span>
