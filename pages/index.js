@@ -6,6 +6,7 @@ import { BsInfoCircle } from "@react-icons/all-files/bs/BsInfoCircle";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { VscActivateBreakpoints } from "@react-icons/all-files/vsc/VscActivateBreakpoints";
 import { VscArrowRight } from "@react-icons/all-files/vsc/VscArrowRight";
+import { GrTools } from "@react-icons/all-files/gr/GrTools";
 import { Popover, Button } from "@nextui-org/react";
 import styles from '../styles/Home.module.css'
 
@@ -107,7 +108,7 @@ export default function Home() {
                     <p>Across websites to optimize user experience as well as paid advertising spend.</p>
                   </Popover.Content>
                 </Popover>
-                </li>
+              </li>
             </ul>
             <ul>
               <li>
@@ -284,6 +285,26 @@ export default function Home() {
             >
               <Button size="lg" auto rounded flat color="secondary">Linked<FaLinkedin /></Button>
             </a>
+          </div>
+        </section>
+        <section className={styles.copyright}>
+          <div>
+            <p><GrTools /> Built with  
+              <a
+              href="https://nextjs.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              > NextJS</a>, 
+              <a
+              href="https://nextui.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              > NextUI</a> and 
+              <a
+              href="https://react-icons.github.io/react-icons"
+              target="_blank"
+              rel="noopener noreferrer"
+              > React Icons</a></p>
           </div>
         </section>
       </main>
