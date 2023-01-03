@@ -189,7 +189,7 @@ export default function Home() {
                 Bitcoin price history page <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                I developed and designed the prices/[crypto] pages on this site.
+                I developed and designed the crypto price history pages on coinme.com.
               </p>
             </a>
             <a
