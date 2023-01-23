@@ -276,7 +276,7 @@ export default function Home() {
                 Weather React App <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                A Weather Web App built in React. This is a React and design demo/exercise.
+                A Weather Web App built in React that fetches data from the weatherapi.com API. This is a React and design demo/exercise.
               </p>
             </a>
           </div>
