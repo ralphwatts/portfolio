@@ -1,3 +1,3 @@
-## Getting Started
+## Ralph's Portfolio
 
-This is Ralph's portfolio. Enjoy!
+Built in NextJS. Enjoy!
