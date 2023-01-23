@@ -104,6 +104,10 @@
     font-weight: 400;
     letter-spacing: .1px;
 }
+.showcase > div:nth-of-type(2) a{
+  display: table;
+  margin: 0 auto;
+}
 .showcase button{
   background: #CAD2C5;
   color:#2F3E46;

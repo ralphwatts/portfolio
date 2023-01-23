@@ -257,6 +257,28 @@ export default function Home() {
                 Check out this page design and price ticker.
               </p>
             </a>
+            
+            <a
+              href="https://weathertoday.ralphjwatts.com/"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className={styles.portfoloimg}
+                src="/images/weather-app.webp"
+                alt="Weather React App"
+                width={192}
+                height={400}
+                priority
+              />
+              <h2 className={inter.className}>
+                Weather React App <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+                A Weather Web App built in React. This is a React and design demo/exercise.
+              </p>
+            </a>
           </div>
           <div>
             <a
