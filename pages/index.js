@@ -259,6 +259,28 @@ export default function Home() {
             </a>
             
             <a
+              href="https://nextjs-template.ralphjwatts.com/"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className={styles.portfoloimg}
+                src="/images/next-temp.webp"
+                alt="NextJS Starter Template"
+                width={482}
+                height={400}
+                priority
+              />
+              <h2 className={inter.className}>
+                NextJS Starter Template <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+              This is a NextJS starter template I built to practice Next and React. I used NextJS, SCSS and React Icons to build this.
+              </p>
+            </a>
+
+            <a
               href="https://weathertoday.ralphjwatts.com/"
               className={styles.card}
               target="_blank"
