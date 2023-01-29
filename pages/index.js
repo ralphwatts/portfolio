@@ -302,7 +302,7 @@ export default function Home() {
               </p>
             </a>
           </div>
-          <div>
+          {/* <div> 
             <a
               href="http://legacy.ralphjwatts.com/"
               target="_blank"
@@ -310,7 +310,7 @@ export default function Home() {
             >
               <Button size="lg" auto rounded flat color="secondary">Older Work</Button>
             </a>
-          </div>
+          </div>*/}
         </section>
         <section className={styles.hero}>
           <div className={styles.footer}>
