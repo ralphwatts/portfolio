@@ -276,7 +276,7 @@ export default function Home() {
                 NextJS Starter Template <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-              This is a NextJS starter template I built to practice Next and React. I used NextJS, SCSS and React Icons to build this.
+              This is a NextJS starter template I built to practice Next and React. I used NextJS, React, SCSS and React Icons to build this.
               </p>
             </a>
 
