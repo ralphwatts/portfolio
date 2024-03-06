@@ -57,7 +57,8 @@ export default function Home() {
                     background: '#111',
                     padding: '4px 8px',
                     textAlign: 'center',
-                    placement: 'bottom-left'
+                    placement: 'bottom-left',
+                    color: '#fff'
                   }}>
                     <p>HTML, CSS, Javascript, React, PHP and Wordpress expert.<br></br>8+ years of professional web development experience across many frameworks and CMS'</p>
                   </Popover.Content>
@@ -76,7 +77,8 @@ export default function Home() {
                   </Popover.Trigger>
                   <Popover.Content css={{
                     background: '#111',
-                    padding: '4px 8px'
+                    padding: '4px 8px',
+                    color: '#fff'
                   }}>
                     <p>Lighthouse, schema & metadata optimization.</p>
                   </Popover.Content>
@@ -103,7 +105,8 @@ export default function Home() {
                   <Popover.Content css={{
                     background: '#111',
                     padding: '4px 8px',
-                    textAlign: 'center'
+                    textAlign: 'center',
+                    color: '#fff'
                   }}>
                     <p>Across websites to optimize user experience as well as paid advertising spend.</p>
                   </Popover.Content>
