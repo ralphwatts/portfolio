@@ -48,14 +48,14 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.skills}>
-          <h2>Skills</h2>
+          <h2>Core Capabilities</h2>
           <div>
             <ul>
               <li>
                 <div>
                   <VscActivateBreakpoints />
                 </div>
-                Web Development
+                Full-Stack Web Development
                 <Popover>
                   <Popover.Trigger>
                     <div>
@@ -69,7 +69,7 @@ export default function Home() {
                     placement: 'bottom-left',
                     color: '#fff'
                   }}>
-                    <p>HTML, CSS, Javascript, React, PHP and WordPress expert.<br></br>8+ years of professional web development experience across many frameworks and CMS'</p>
+                    <p>React, Next.js, WordPress Custom Builds</p>
                   </Popover.Content>
                 </Popover>
               </li>
@@ -77,7 +77,7 @@ export default function Home() {
                 <div>
                   <VscActivateBreakpoints />
                 </div>
-                <span>SEO and Performance Optimization</span>
+                <span>Scalable Front-End System Design</span>
                 <Popover>
                   <Popover.Trigger>
                     <div>
@@ -89,7 +89,27 @@ export default function Home() {
                     padding: '4px 8px',
                     color: '#fff'
                   }}>
-                    <p>Lighthouse, schema & metadata optimization.</p>
+                    <p>Reusable components, multi-CMS ecosystems.</p>
+                  </Popover.Content>
+                </Popover>
+              </li>
+              <li>
+                <div>
+                  <VscActivateBreakpoints />
+                </div>
+                <span>Server & Deployment Infrastructure</span>
+                <Popover>
+                  <Popover.Trigger>
+                    <div>
+                      <BsInfoCircle />
+                    </div>
+                  </Popover.Trigger>
+                  <Popover.Content css={{
+                    background: '#111',
+                    padding: '4px 8px',
+                    color: '#fff'
+                  }}>
+                    <p>AWS Lightsail, Docker, CI/CD, GitOps</p>
                   </Popover.Content>
                 </Popover>
               </li>
@@ -99,12 +119,7 @@ export default function Home() {
                 <div>
                   <VscActivateBreakpoints />
                 </div>
-                UI/UX Design</li>
-              <li>
-                <div>
-                  <VscActivateBreakpoints />
-                </div>
-                A/B Testing
+                Marketing Technology Integrations
                 <Popover>
                   <Popover.Trigger>
                     <div>
@@ -117,7 +132,49 @@ export default function Home() {
                     textAlign: 'center',
                     color: '#fff'
                   }}>
-                    <p>Across websites to optimize user experience as well as paid advertising spend.</p>
+                    <p>GTM, analytics events, Iterable, Pardot, Veeva</p>
+                  </Popover.Content>
+                </Popover>
+                </li>
+              <li>
+                <div>
+                  <VscActivateBreakpoints />
+                </div>
+                Advanced WordPress Engineering
+                <Popover>
+                  <Popover.Trigger>
+                    <div>
+                      <BsInfoCircle />
+                    </div>
+                  </Popover.Trigger>
+                  <Popover.Content css={{
+                    background: '#111',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    color: '#fff'
+                  }}>
+                    <p>Custom Gutenberg Blocks, ACF, Themes</p>
+                  </Popover.Content>
+                </Popover>
+              </li>
+              <li>
+                <div>
+                  <VscActivateBreakpoints />
+                </div>
+                Enterprise Email Development
+                <Popover>
+                  <Popover.Trigger>
+                    <div>
+                      <BsInfoCircle />
+                    </div>
+                  </Popover.Trigger>
+                  <Popover.Content css={{
+                    background: '#111',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    color: '#fff'
+                  }}>
+                    <p>MJML, multi-ESP workflows, QA automation</p>
                   </Popover.Content>
                 </Popover>
               </li>
@@ -127,17 +184,70 @@ export default function Home() {
                 <div>
                   <VscActivateBreakpoints />
                 </div>
-                Website Analytic Reporting</li>
+                Complex Web Form Architecture
+                <Popover>
+                  <Popover.Trigger>
+                    <div>
+                      <BsInfoCircle />
+                    </div>
+                  </Popover.Trigger>
+                  <Popover.Content css={{
+                    background: '#111',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    color: '#fff'
+                  }}>
+                    <p>Formik, multi-layer validation, testing</p>
+                  </Popover.Content>
+                </Popover>
+                </li>
               <li>
                 <div>
                   <VscActivateBreakpoints />
                 </div>
-                Email Marketing and Development</li>
+                Automated Testing & QA Engineering
+                <Popover>
+                  <Popover.Trigger>
+                    <div>
+                      <BsInfoCircle />
+                    </div>
+                  </Popover.Trigger>
+                  <Popover.Content css={{
+                    background: '#111',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    color: '#fff'
+                  }}>
+                    <p>Playwright, Jest, load/performance testing</p>
+                  </Popover.Content>
+                </Popover>
+                </li>
+                <li>
+                <div>
+                  <VscActivateBreakpoints />
+                </div>
+                Large-Scale API & Data Integrations
+                <Popover>
+                  <Popover.Trigger>
+                    <div>
+                      <BsInfoCircle />
+                    </div>
+                  </Popover.Trigger>
+                  <Popover.Content css={{
+                    background: '#111',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    color: '#fff'
+                  }}>
+                    <p>Mapbox GL JS, Nomics API, Google APIs</p>
+                  </Popover.Content>
+                </Popover>
+              </li>
             </ul>
           </div>
         </section>
         <section className={styles.showcase}>
-          <h2>Showcase</h2>
+          <h2>Featured Work</h2>
           <p>Click an example to see the live site.</p>
           <div className={styles.grid}>
             <a
@@ -414,24 +524,14 @@ export default function Home() {
         </section>
         <section className={styles.hero}>
           <div className={styles.footer}>
-            <h1>Contact</h1>
-            <p>Contact info on resume.</p>
-          </div>
-          <div>
-            {/*<a
-              href="https://www.linkedin.com/in/ralphwatts/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button size="lg" auto rounded flat color="secondary">Linked<FaLinkedin /></Button>
-            </a>*/}
-            <a
+          <a
               href="/pdfs/Ralph Watts' Resume Extended.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Button size="lg" auto rounded flat color="secondary">Resume&nbsp;<FaDownload /></Button>
             </a>
+            <p>Contact info on resume.</p>
           </div>
         </section>
         <section className={styles.copyright}>

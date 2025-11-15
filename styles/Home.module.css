@@ -27,6 +27,7 @@
 .hero .footer h1{
   font-size:40px;
 }
+
 .hero p{
   font-family: 'Noto Sans', sans-serif;
   font-size:22px;
@@ -62,6 +63,16 @@
 }
 .hero div:nth-of-type(2) a{
   flex-basis: 100%;
+}
+.hero div.footer {
+  flex-basis: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero div.footer p{
+  margin: 10px auto 20px;
 }
 .skills{
   background:#f7f7f7;
@@ -290,7 +301,7 @@
     font-size:26px;
   }
   .skills ul li span{
-    flex-basis: 60%;
+    flex-basis: 100%;
   }
   .grid {
     max-width: 100%;
@@ -329,6 +340,20 @@
     display: none;
   }
 
+}
+
+@media (max-width: 414px) {
+  .skills ul {
+    position: relative;
+    width: 100%;
+  }
+  .skills ul li {
+    padding-right: 20px;
+  }
+  .skills ul li div[type="button"] {
+    position: absolute;
+    right: 0px;
+  }
 }
 
 /* Tablet and Smaller Desktop */
