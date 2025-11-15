@@ -9,19 +9,20 @@
   color:#fff;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   background:#2F3E46;
 }
 .hero h1{
   font-size:70px;
+  line-height: 1em;
   font-family: 'Inter', sans-serif;
 }
 .hero h2{
   font-family: 'Noto Sans', sans-serif;
   font-size:30px;
   font-weight:500;
-  margin-bottom:0;
+  margin-bottom:20px;
 }
 .hero .footer h1{
   font-size:40px;
@@ -44,6 +45,16 @@
 }
 .hero button:hover{
   background:#CAD2C5;
+}
+.hero div:first-of-type {
+  flex-basis: 58%;
+}
+.hero div:first-of-type p{
+  font-size:18px;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 0;
 }
 .hero div:nth-of-type(2){
   display: flex;
@@ -118,6 +129,11 @@
 .showcase button:hover{
   background: #2F3E46;
   color:#fff;
+}
+.showcase .imgWrapper{
+  min-height: 420px;
+  display: flex;
+  align-items: center;
 }
 .grid {
   display: flex;
@@ -222,8 +238,13 @@
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .card:hover img {
+    transform: scale(1.01);
+    transition: transform 0.3s ease-in-out;
   }
 
   .card:hover span {
@@ -243,10 +264,16 @@
 }
 /* Mobile */
 @media (max-width: 767px) {
+  .resumeTopLink{
+    display: none !important;
+  }
   .content {
     padding: 4rem;
   }
-  .hero div{
+  .hero {
+    flex-direction: column;
+  }
+  .hero div, .hero div:first-of-type{
     flex-basis:100%;
   }
   .hero button{
@@ -262,9 +289,6 @@
   .hero h2{
     font-size:26px;
   }
-  .hero button{
-    display: none;
-  }
   .skills ul li span{
     flex-basis: 60%;
   }
@@ -276,7 +300,7 @@
     flex-basis: 100%;
   }
   .card {
-    padding: 12px;
+    padding: 20px;
     width:100%;
     margin-bottom:20px;
   }
@@ -290,6 +314,7 @@
   }
   .copyright{
     text-align: left;
+    padding-top: 40px;
   }
   .center {
     padding: 8rem 0 6rem;
@@ -299,6 +324,11 @@
     transform: none;
     height: 300px;
   }
+
+  .footer {
+    display: none;
+  }
+
 }
 
 /* Tablet and Smaller Desktop */
