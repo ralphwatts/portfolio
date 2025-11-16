@@ -402,7 +402,7 @@ export default function Home() {
                   className={styles.portfoloimg}
                   src="/images/learn.webp"
                   alt="Coinme.com/learn screenshot"
-                  width={482}
+                  width={400}
                   height={400}
                   priority
                 />
