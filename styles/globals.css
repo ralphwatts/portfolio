@@ -109,3 +109,11 @@ section{
     padding: 2rem;
   }
 }
+.Home_card___LpL1:hover img.tilt-right {
+  transform: scale(1.01) rotate(0.55deg) !important;
+  transition: transform 0.3s ease-in-out;
+}
+.Home_card___LpL1:hover img.tilt-left {
+  transform: scale(1.01) rotate(-0.55deg) !important;
+  transition: transform 0.3s ease-in-out;
+}

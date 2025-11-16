@@ -258,7 +258,7 @@ export default function Home() {
             >
               <div className={styles.imgWrapper}>
                 <Image
-                  className={styles.portfoloimg}
+                  className={`${styles.portfoloimg} tilt-right`}
                   src={pricesShowcase}
                   alt="Coinme.com/prices screenshot"
                   width={192}
@@ -284,7 +284,7 @@ export default function Home() {
                   className={styles.portfoloimg}
                   src="/images/map.webp"
                   alt="Coinme store locator screenshot"
-                  width={481}
+                  width={400}
                   height={400}
                   priority
                 />
@@ -305,7 +305,7 @@ export default function Home() {
             >
               <div className={styles.imgWrapper}>
                 <Image
-                  className={styles.portfoloimg}
+                  className={`${styles.portfoloimg} tilt-right`}
                   src="/images/btc-price.webp"
                   alt="Bitcoin price history page screenshot"
                   width={192}
@@ -323,7 +323,7 @@ export default function Home() {
 
 
             <a
-              href="https://cryptoliteracy.org/quiz/"
+              href="https://cortrophin.com"
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
@@ -346,30 +346,30 @@ export default function Home() {
               </p>
             </a>
             <a
-              href="https://whitehawk.com"
+              href="https://www.whitehawktx.com/"
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className={styles.imgWrapper}>
                 <Image
-                  className={styles.portfoloimg}
+                  className={`${styles.portfoloimg} img-lg`}
                   src="/images/whitehawk.webp"
-                  alt="whitehawk.com screenshot"
-                  width={400}
+                  alt="whitehawktx.com screenshot"
+                  width={300}
                   height={400}
                   priority
                 />
               </div>
               <h2 className={inter.className}>
-                Whitehawk.com <span><VscArrowRight /></span>
+              Whitehawktx.com/ <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
                 Biotechnology company website built in WordPress.
               </p>
             </a>
             <a
-              href="https://rhuemagen.com"
+              href="https://www.rheumagen.com/"
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
@@ -422,7 +422,7 @@ export default function Home() {
             >
               <div className={styles.imgWrapper}>
                 <Image
-                  className={styles.portfoloimg}
+                  className={`${styles.portfoloimg} tilt-right`}
                   src="/images/quiz-ipad.webp"
                   alt="cryptoliteracy.org/quiz screenshot"
                   width={482}
@@ -446,7 +446,7 @@ export default function Home() {
             >
               <div className={styles.imgWrapper}>
                 <Image
-                  className={styles.portfoloimg}
+                  className={`${styles.portfoloimg} tilt-right`}
                   src="/images/earthandclay.webp"
                   alt="earthandclaysoaps.com screenshot"
                   width={192}
@@ -465,6 +465,30 @@ export default function Home() {
 
 
             <a
+              href="https://legacy.ralphjwatts.com/tyrc/index.html"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.imgWrapper}>
+                <Image
+                  className={`${styles.portfoloimg} img-lg tilt-right`}
+                  src="/images/tyrc.webp"
+                  alt="Test Your Recall Web App screenshot"
+                  width={195}
+                  height={400}
+                  priority
+                />
+              </div>
+              <h2 className={inter.className}>
+                Test Your Recall Web App <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+                A jQuery, boostrap, Angular web app to train the brain. Test your recall!
+              </p>
+            </a>
+
+            <a
               href="https://nextjs-template.ralphjwatts.com/"
               className={styles.card}
               target="_blank"
@@ -474,8 +498,8 @@ export default function Home() {
                 <Image
                   className={styles.portfoloimg}
                   src="/images/next-temp.webp"
-                  alt="NextJS Starter Template"
-                  width={482}
+                  alt="NextJS Starter Template screenshot"
+                  width={400}
                   height={400}
                   priority
                 />
@@ -496,9 +520,9 @@ export default function Home() {
             >
               <div className={styles.imgWrapper}>
                 <Image
-                  className={styles.portfoloimg}
+                  className={`${styles.portfoloimg} tilt-right`}
                   src="/images/weather-app.webp"
-                  alt="Weather React App"
+                  alt="Weather React App screenshot"
                   width={192}
                   height={400}
                   priority
