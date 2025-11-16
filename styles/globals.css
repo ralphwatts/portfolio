@@ -109,11 +109,21 @@ section{
     padding: 2rem;
   }
 }
+.Home_card___LpL1 img {
+  transition: transform 0.2s ease-in-out;
+}
 .Home_card___LpL1:hover img.tilt-right {
   transform: scale(1.01) rotate(0.55deg) !important;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .Home_card___LpL1:hover img.tilt-left {
   transform: scale(1.01) rotate(-0.55deg) !important;
   transition: transform 0.3s ease-in-out;
+}
+.nextui-c-PJLV p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  line-height: 1.2em;
 }
