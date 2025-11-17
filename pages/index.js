@@ -266,10 +266,10 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-                Coinme.com/prices <span><VscArrowRight /></span>
+                Coinme.com/Prices <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Pulling real-time crypto prices from the Nomics API to build a sortable crypto table.
+                Fetches real-time crypto prices from the Nomics API to build a sortable crypto table.
               </p>
             </a>
 
@@ -290,10 +290,10 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-                Store locator<span><VscArrowRight /></span>
+                Coinme.com/Locations<span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Check out the map on coinme.com/locations that I built with Mapbox GL JS.
+                Built the store locator map on coinme.com/locations with Mapbox GL JS. Serves over $44k locations all searchable and filterable.
               </p>
             </a>
 
@@ -314,10 +314,10 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-                Bitcoin price history page <span><VscArrowRight /></span>
+              Coinme.com/Prices/Bitcoin <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Developed and designed the crypto price history pages on coinme.com.
+                Developed and designed the crypto price history pages on coinme.com. Leveraged Nomics API to fetch real-time crypto data.
               </p>
             </a>
 
@@ -362,7 +362,7 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-              Whitehawktx.com/ <span><VscArrowRight /></span>
+              Whitehawktx.com <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
                 Biotechnology company website built in WordPress.
@@ -408,10 +408,10 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-                Coinme.com/learn <span><VscArrowRight /></span>
+                Coinme.com/Learn <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Page design and development for coinme.com/learn, contributed to articles and content ideas.
+                Development for the Coinme Learn Ecosystem, contributed to the page design as well as articles and content ideas driven by SEO research. 
               </p>
             </a>
             <a
@@ -431,10 +431,10 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-                Cryptoliteracy.org/quiz <span><VscArrowRight /></span>
+              CryptoLiteracy.org/Quiz <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                An interactive quiz built in WordPress.
+                An interactive quiz built in WordPress. Cryptoliteracy.org is a non-profit organization that educates people about cryptocurrency and blockchain technology.
               </p>
             </a>
 
@@ -458,7 +458,7 @@ export default function Home() {
                 EarthandClaySoaps.com<span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Earth and Clay Soaps' shopify website. An amazing product and lovely small business.
+                Earth and Clay Soaps' shopify website. Managed the entire project from design to development. An amazing product and lovely small business.
               </p>
             </a>
 
@@ -484,7 +484,7 @@ export default function Home() {
                 Test Your Recall Web App <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                A jQuery, boostrap, Angular web app to train the brain. Test your recall!
+                jQuery, Angular & Bootstrap-powered web app to train the brain. Test your recall!
               </p>
             </a>
 
@@ -508,7 +508,7 @@ export default function Home() {
                 NextJS Starter Template <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                A NextJS starter template I built to practice Next and React. I used NextJS, React, SCSS and React Icons to build this.
+                NextJS starter template built to practice Next and React. NextJS, React, SCSS and React Icons were in this project.
               </p>
             </a>
 
@@ -532,7 +532,7 @@ export default function Home() {
                 Weather React App <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                A Weather Web App built in React that fetches data from the weatherapi.com API. This is a React and design demo/exercise.
+                Weather Web App built in React that fetches data from the weatherapi.com API. This is a React and design demo/exercise.
               </p>
             </a>
           </div>
