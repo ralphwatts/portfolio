@@ -135,7 +135,7 @@ export default function Home() {
                     <p>GTM, analytics events, Iterable, Pardot, Veeva</p>
                   </Popover.Content>
                 </Popover>
-                </li>
+              </li>
               <li>
                 <div>
                   <VscActivateBreakpoints />
@@ -200,7 +200,7 @@ export default function Home() {
                     <p>Formik, multi-layer validation, testing</p>
                   </Popover.Content>
                 </Popover>
-                </li>
+              </li>
               <li>
                 <div>
                   <VscActivateBreakpoints />
@@ -221,8 +221,8 @@ export default function Home() {
                     <p>Playwright, Jest, load/performance testing</p>
                   </Popover.Content>
                 </Popover>
-                </li>
-                <li>
+              </li>
+              <li>
                 <div>
                   <VscActivateBreakpoints />
                 </div>
@@ -293,7 +293,7 @@ export default function Home() {
                 Coinme.com/Locations<span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Built the store locator map on coinme.com/locations with Mapbox GL JS. Serves over $44k locations all searchable and filterable.
+                Built the store locator map on coinme.com/locations with Mapbox GL JS. Serves over 44k locations all searchable and filterable.
               </p>
             </a>
 
@@ -314,14 +314,36 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-              Coinme.com/Prices/Bitcoin <span><VscArrowRight /></span>
+                Coinme.com/Prices/Bitcoin <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
                 Developed and designed the crypto price history pages on coinme.com. Leveraged Nomics API to fetch real-time crypto data.
               </p>
             </a>
 
-
+            <a
+              href="https://www.radicava.com/patient/"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.imgWrapper}>
+                <Image
+                  className={styles.portfoloimg}
+                  src="/images/radicava-patient.webp"
+                  alt="radicava.com screenshot"
+                  width={482}
+                  height={400}
+                  priority
+                />
+              </div>
+              <h2 className={inter.className}>
+                Radicava.com <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+                ALS medication marketing website built in NextJS.
+              </p>
+            </a>
             <a
               href="https://cortrophin.com"
               className={styles.card}
@@ -342,9 +364,33 @@ export default function Home() {
                 Cortrophin.com <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Prescription medication website built in NextJS.
+                Prescription medication marketing website built in NextJS.
               </p>
             </a>
+            <a
+              href="https://www.speakparkinsons.com/"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.imgWrapper}>
+                <Image
+                  className={styles.portfoloimg}
+                  src="/images/speakparkinsons.webp"
+                  alt="speakparkinsons.com screenshot"
+                  width={482}
+                  height={400}
+                  priority
+                />
+              </div>
+              <h2 className={inter.className}>
+                SpeakParkinsons.com <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+                Parkinsons educational website built in NextJS.
+              </p>
+            </a>
+
             <a
               href="https://www.whitehawktx.com/"
               className={styles.card}
@@ -362,7 +408,7 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-              Whitehawktx.com <span><VscArrowRight /></span>
+                Whitehawktx.com <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
                 Biotechnology company website built in WordPress.
@@ -411,7 +457,7 @@ export default function Home() {
                 Coinme.com/Learn <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
-                Development for the Coinme Learn Ecosystem, contributed to the page design as well as articles and content ideas driven by SEO research. 
+                Development for the Coinme Learn Ecosystem, contributed to the page design as well as articles and content ideas driven by SEO research.
               </p>
             </a>
             <a
@@ -431,7 +477,7 @@ export default function Home() {
                 />
               </div>
               <h2 className={inter.className}>
-              CryptoLiteracy.org/Quiz <span><VscArrowRight /></span>
+                CryptoLiteracy.org/Quiz <span><VscArrowRight /></span>
               </h2>
               <p className={inter.className}>
                 An interactive quiz built in WordPress. Cryptoliteracy.org is a non-profit organization that educates people about cryptocurrency and blockchain technology.
@@ -462,7 +508,29 @@ export default function Home() {
               </p>
             </a>
 
-
+            <a
+              href="https://tlando.com/hcp"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.imgWrapper}>
+                <Image
+                  className={styles.portfoloimg}
+                  src="/images/tlando.webp"
+                  alt="TLando.com/hcp screenshot"
+                  width={482}
+                  height={400}
+                  priority
+                />
+              </div>
+              <h2 className={inter.className}>
+                TLando.com/hcp <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+                Medication marketing website built in HubSpot.
+              </p>
+            </a>
 
             <a
               href="https://legacy.ralphjwatts.com/tyrc/index.html"
@@ -548,7 +616,7 @@ export default function Home() {
         </section>
         <section className={styles.hero}>
           <div className={styles.footer}>
-          <a
+            <a
               href="/pdfs/Ralph Watts' Resume Extended.pdf"
               target="_blank"
               rel="noopener noreferrer"

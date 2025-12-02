@@ -104,7 +104,7 @@ a {
 section{
   padding: 3rem 6rem;
 }
-@media (max-width:767px){
+@media (max-width:926px){
   section{
     padding: 2rem;
   }
