@@ -28,7 +28,7 @@ export default function Home() {
           <div>
             <h1>Portfolio</h1>
             <h2>Ralph Watts, Web Developer</h2>
-            <p>Full-stack Web Developer specializing in modern JavaScript frameworks, scalable WordPress builds, and marketing technology integrations. Experienced delivering pixel-perfect, high-performance web solutions for enterprise clients.</p>
+            <p>Full-stack Web Developer with deep expertise in React, Next.js, Vue.js and advanced WordPress builds. I specialize in translating complex marketing and regulatory requirements into fast, scalable, and pixel-perfect digital experiences.</p>
           </div>
           <div className={styles.resumeTopLink}>
             {/*<a
