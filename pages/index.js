@@ -531,7 +531,7 @@ export default function Home() {
                 Medication marketing website built in HubSpot.
               </p>
             </a>
-
+            {/*     
             <a
               href="https://legacy.ralphjwatts.com/tyrc/index.html"
               className={styles.card}
@@ -553,6 +553,30 @@ export default function Home() {
               </h2>
               <p className={inter.className}>
                 jQuery, Angular & Bootstrap-powered web app to train the brain. Test your recall!
+              </p>
+            </a>
+            */}
+            <a
+              href="https://vue-bootstrap.ralphjwatts.com/"
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.imgWrapper}>
+                <Image
+                  className={styles.portfoloimg}
+                  src="/images/vue-saas-bootstrap.webp"
+                  alt="VueJS SaaS Marketing Template screenshot"
+                  width={400}
+                  height={400}
+                  priority
+                />
+              </div>
+              <h2 className={inter.className}>
+                VueJS SaaS Marketing Template <span><VscArrowRight /></span>
+              </h2>
+              <p className={inter.className}>
+              VueJS SaaS marketing template built to practice VueJS. VueJS and Bootstrap were in this project.
               </p>
             </a>
 
